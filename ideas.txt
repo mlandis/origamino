@@ -1,0 +1,42 @@
+MODEL ENHANCEMENTS
+
+	Selection Regimes:
+		- omega^(k) where k > 1
+		- physicochemical constraints -- should help avoid cysteine chains
+			hydropathy
+			polarity(G)
+			polarity(Z)
+			isoelectric point
+			volume
+		- secondary structure:
+			free energy
+			contact maps between secondary structures?
+	
+	Secondary Structure:
+		- designate sections to secondary structures (a-helix, b-sheet, etc)
+		- need to research on protein databank for feasibility
+
+	Recombination:
+		- allow segments of sequence to horizontally transfer
+		- if a protein retains functionality despite recombination, then the recomb region may not have structural significance
+		- allow segments outside the homologous regions to copy back & forth??
+
+	Contact maps:
+		- instead of constructing a contact map for amino acids w/in 4.5angstroms
+		-      why not give all elements in the contact map a value proportional to inverse squares
+		-      F = 1 / r^2
+		- reference the contact map paper: RE: 9-12 angstrom distance for Van der Waals forces is optimal!!
+	
+	Conformation families:
+		- sample from from varying conformation possibilities.
+		- would molecular evolution have to allow all conformations to exist?
+	
+	
+	
+DATA SAMPLES
+	
+	- Lysin (25 abalone samples)
+	- MHC (Mammal Histosomething Compound) six class I loci:
+		HLA-A
+		HLA-B
+		
